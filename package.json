@@ -1,0 +1,30 @@
+{
+  "name": "SmartContractsMKT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzzNitro/SmartContractsMKT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzzNitro/SmartContractsMKT/issues"
+  },
+  "homepage": "https://github.com/zzzNitro/SmartContractsMKT#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "psql": "^0.0.1",
+    "react": "^17.0.2",
+    "redux": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
