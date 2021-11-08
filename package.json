@@ -2,9 +2,11 @@
   "name": "SmartContractsMKT",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/server.js",
+    "server":"nodemon api/server.js",
+    "client":"npm start --prefix client",
   },
   "repository": {
     "type": "git",
@@ -19,12 +21,6 @@
   "homepage": "https://github.com/zzzNitro/SmartContractsMKT#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "psql": "^0.0.1",
-    "react": "^17.0.2",
-    "redux": "^4.1.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.14"
+    "express": "^4.17.1"
   }
 }
