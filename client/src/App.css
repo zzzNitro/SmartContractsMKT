@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('./images/FondoPF.jpeg')no-repeat center center fixed ;
+  /* background-size: 100%; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
